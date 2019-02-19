@@ -197,7 +197,7 @@ public class AliyunOSSClientUtil {
         OSSClient ossClient=AliyunOSSClientUtil.getOSSClient();
         //上传文件
         String files="D:\\photo\\1.jpg";
-        String[] file=files.split(",");wwwwwwww
+        String[] file=files.split(",");
         for(String filename:file){
             //System.out.println("filename:"+filename);
             File filess=new File(filename);
